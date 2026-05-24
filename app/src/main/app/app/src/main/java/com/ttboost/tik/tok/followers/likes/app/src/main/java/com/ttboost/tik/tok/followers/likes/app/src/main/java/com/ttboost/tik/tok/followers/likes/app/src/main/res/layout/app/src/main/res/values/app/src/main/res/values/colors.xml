@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_bg">#000000</color>
+    <color name="teal_neon">#00FFFF</color>
+    <color name="teal_dark">#008080</color>
+    <color name="purple_neon">#BF00FF</color>
+    <color name="gold_ceo">#FFD700</color>
+    <color name="green_server">#00CC00</color>
+    <color name="pink_programmer">#FF00FF</color>
+    <color name="red_neon">#FF0000</color>
+    <color name="red_dark">#8B0000</color>
+    <color name="gray_bg">#1A1A1A</color>
+    <color name="white">#FFFFFF</color>
+</resources>
