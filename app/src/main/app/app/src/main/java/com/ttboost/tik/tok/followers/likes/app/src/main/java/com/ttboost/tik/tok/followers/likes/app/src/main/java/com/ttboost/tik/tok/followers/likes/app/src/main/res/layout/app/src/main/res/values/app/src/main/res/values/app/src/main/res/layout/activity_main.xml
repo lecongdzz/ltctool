@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TTBoost Automation VIP - Adm Lê Công"
+        android:textColor="@color/teal_neon"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:paddingBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/gray_bg"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌐 Website: tangtuongtacsieure.com"
+            android:textColor="@color/teal_neon"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💻 Powered by Viettask Software"
+            android:textColor="@color/teal_neon"
+            android:fontFamily="monospace"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👑 CEO FOUNDER VIETTASK GROUP"
+            android:textColor="@color/purple_neon"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👤 [b]LƯƠNG HUỲNH ĐỨC (NHÀ SÁNG LẬP)[/b]"
+            android:textColor="@color/gold_ceo"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📞 SĐT: 0886317315"
+            android:textColor="@color/gold_ceo"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚙️ LƯƠNG TRƯỜNG PHƯỚC (VẬN HÀNH SERVER)"
+            android:textColor="@color/green_server"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👨‍💻 LẬP TRÌNH VIÊN: LÊ CÔNG"
+            android:textColor="@color/pink_programmer"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▶ Cấu hình Địa chỉ IP ADB (IP:PORT):"
+        android:textColor="@color/green_server"
+        android:fontFamily="monospace" />
+
+    <EditText
+        android:id="@+id/etAdbIp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/gray_bg"
+        android:textColor="@color/white"
+        android:text="127.0.0.1:5555"
+        android:paddingStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▶ Nhập số xu mục tiêu cần chạy để dừng:"
+        android:textColor="@color/teal_neon"
+        android:fontFamily="monospace" />
+
+    <EditText
+        android:id="@+id/etTargetCoin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/gray_bg"
+        android:textColor="@color/white"
+        android:text="1000"
+        android:inputType="number"
+        android:paddingStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnOnlyFollow"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Chỉ Follow"
+            android:textColor="@color/teal_neon"
+            android:backgroundTint="@color/teal_dark"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="monospace" />
+
+        <Button
+            android:id="@+id/btnOnlyLike"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Chỉ Tym"
+            android:textColor="@color/teal_neon"
+            android:backgroundTint="@color/teal_dark"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="monospace" />
+
+        <Button
+            android:id="@+id/btnTotal"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Tổng Lực"
+            android:textColor="@color/black_bg"
+            android:backgroundTint="@color/green_server"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Trạng Thái:"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="monospace" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/gray_bg"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvLogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green_server"
+            android:fontFamily="monospace"
+            android:textSize="12sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnEmergencyStop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="⏹ DỪNG TOOL AN TOÀN (EMERGENCY)"
+        android:textColor="@color/red_neon"
+        android:backgroundTint="@color/red_dark"
+        android:textStyle="bold"
+        android:fontFamily="monospace" />
+</LinearLayout>
+      
